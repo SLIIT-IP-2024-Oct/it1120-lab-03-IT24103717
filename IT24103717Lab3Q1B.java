@@ -13,11 +13,11 @@ public class IT24103717Lab3Q1B{
         
           double thenumberofkilogramswanted= input.nextDouble();
 
-           double priceof5kgrice=(priceof1kgrice*thenumberofkilogramswanted);
+           double priceofkgrice=(priceof1kgrice*thenumberofkilogramswanted);
             
-           double discount=priceof5kgrice*0.10;
+           double discount=priceofkgrice*0.10;
  
-           double totalamountwithdiscount=(priceof5kgrice-discount);
+           double totalamountwithdiscount=(priceofkgrice-discount);
         
         System.out.println("The total amount after 10% discount is: " + totalamountwithdiscount);
         
@@ -27,7 +27,7 @@ public class IT24103717Lab3Q1B{
 
 
 
-System.out.println("The total amount with 10% discount is:" +totalamountwithdiscount);
+
       }
 
 }
