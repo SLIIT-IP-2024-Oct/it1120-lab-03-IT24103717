@@ -1,20 +1,22 @@
+import java.util.Scanner;
+
 public class IT24103717Lab3Q1A{
 
     public static void main(String[] args){
-    
-         int priceof1kgrice= 225;
 
-         int thenumberofkilogramswanted= 5;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter the price of 1kg of rice: ");
+          double priceof1kgrice= input.nextDouble();
 
-         float priceof5kgrice=(priceof1kgrice * thenumberofkilogramswanted);
+        System.out.println("Enter the number of kilograms you want to buy: ");
+          double thenumberofkilogramswanted= input.nextDouble();
 
-System.out.println("Enter the price of 1kg of rice: " +priceof1kgrice);
+          double totalpriceofrice=(priceof1kgrice * thenumberofkilogramswanted);
 
-System.out.println("Enter the number of kilograms you want to buy: " +thenumberofkilogramswanted);
 
-System.out.println();
+        System.out.println();
 
-System.out.println("The total amount is: " +priceof5kgrice);
+        System.out.println("The total amount is: " +totalpriceofrice);
 
 
 
