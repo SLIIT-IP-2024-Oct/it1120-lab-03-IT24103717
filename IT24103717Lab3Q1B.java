@@ -25,8 +25,7 @@ public class IT24103717Lab3Q1B{
          
 
 
-System.out.println("Enter the number of kilograms you want to buy:" + thenumberofkilogramswanted);
-System.out.println();
+
 
 System.out.println("The total amount with 10% discount is:" +totalamountwithdiscount);
       }
